@@ -1,0 +1,29 @@
+{
+  "name": "next-with-cypress",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "start-server-and-test dev http://localhost:3000 \\\"cypress open --e2e\\\"",
+    "cypress:e2e": "cypress open --e2e"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "start-server-and-test": "^2.0.0",
+    "wait-on": "^7.0.1"
+  }
+}
