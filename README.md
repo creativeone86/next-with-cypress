@@ -52,3 +52,7 @@ Note the following command will run it in the cloud
 ```bash
 npx cypress run --record --key xxx
 ```
+
+Reference for setting up github actions for cypress 
+
+https://github.com/cypress-io/github-action#end-to-end-testing
